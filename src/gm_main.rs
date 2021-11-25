@@ -60,9 +60,3 @@ fn main() {
         ::std::thread::sleep(Duration::new(0, 1_000_000_000u32 / 60));
     }
 }
-
-/// # This is a test
-/// This is truly a test
-fn test() {
-
-}

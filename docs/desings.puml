@@ -1,0 +1,15 @@
+@startuml
+class Actor
+class Grid
+class Sector
+class Position
+
+Sector "1" *-- "1" Grid
+(Sector, Grid) .. Position
+Actor "1" *-- "1" Position: contains
+
+Position : idGrid
+Position : gridX
+Position : gridY
+Position : idSector
+@enduml
